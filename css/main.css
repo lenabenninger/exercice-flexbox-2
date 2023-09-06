@@ -83,6 +83,17 @@ body {
   width: 40%;
   flex-grow: 1;
 }
+
+.section-5 {
+  display: flex;
+  justify-content: flex-end; 
+  gap: 10px;
+}
+
+.section-5 .box {
+  padding: 3px 15px;
+}
+
 a {
   color: inherit;
 }
