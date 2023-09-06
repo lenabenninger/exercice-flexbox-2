@@ -42,6 +42,25 @@ body {
   background-color: var(--white);
   border: 1px solid var(--grey);
 }
+
+.section-1 {
+  display: flex;
+  text-align: center;
+}
+
+.section-1 .box {
+  width: calc(100% / 4)
+}
+
+.section-2 {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.section-2 .box {
+  width: calc(100% / 2)
+}
 a {
   color: inherit;
 }
